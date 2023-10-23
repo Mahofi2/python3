@@ -14,13 +14,10 @@ while not terminateprogram:
             print("unknown operation !")
             continue
 
-        if operation == "add":
+        if operation == "add" or operation == "+" :
             print("Result is :", number1 + number2)
             break
 
-        if operation == "+":
-            print("Result is :", number1 + number2)
-            break
 
         if operation == "sub" :
             print("Result is :", number1 - number2)
