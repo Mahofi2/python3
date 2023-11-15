@@ -1,10 +1,10 @@
-mark = int(input("Enter your result  "))
-if 0 <= mark <= 32:
-    print("Fail")
-if 33 <= mark <= 39:
+mark = int(input("inter your rusalt"))
+if mark >= 0 and mark <= 32:
+    print("fail")
+if mark >= 33 and mark <= 39:
     print("D")
 if mark >= 40 and mark <= 49:
-    print("C")
+    print("c")
 if mark >= 50 and mark <= 59:
     print("B")
 if mark >= 60 and mark <= 69:
@@ -12,6 +12,6 @@ if mark >= 60 and mark <= 69:
 if mark >= 70 and mark <= 79:
     print("A")
 if mark >= 80 and mark <= 100:
-    print("A+")
-if mark > 100:
+    print("a+")
+if 100 < mark:
     print("type your single subject result")

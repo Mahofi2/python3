@@ -22,7 +22,7 @@ result = Calculator(num1, num2, sign)
 print(result)
 
 
-# float calculator
+# float calculator.py
 number1 = float(input("Enter a first number"))
 sign = input("Enter a sign")
 number2 = float(input("Enter a second number"))
